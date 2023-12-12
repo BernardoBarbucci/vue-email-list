@@ -18,6 +18,8 @@ createApp({
     },
 
     created() {
-        this.getNewMail();
+        for (let i = 0; i < 10; i++) {
+            this.getNewMail();
+        }
     },
 }).mount('#app');

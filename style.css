@@ -14,7 +14,7 @@
     color: white;
     width: 100%;
     max-width: 540px;
-    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, black, #006920fa);
     margin: 100px auto 20px;
     padding: 40px 30px 70px;
     border-radius: 10px;
@@ -24,10 +24,10 @@
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
-    transition: color 1s ease-in, transform 1s ease-in;
+    transition: color .8s ease-in, transform .8s ease-in;
 }
 .title:hover{
-    color: #006920fa;
+    color: rgb(167, 167, 76);
     transform: scale(1.8);
 }
 .mail-gen{
@@ -43,5 +43,5 @@
 }
 .mail-gen > p:hover{
     transform: scale(1.5);
-    color: red;
+    color: rgb(0, 216, 235);
 }
