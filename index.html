@@ -15,16 +15,7 @@
                     <h1>Random mail generator</h1>
                 </div>
                 <div class="mail-gen">
-                    <p> {{ email }} </p>
-                    <p> {{ email }} </p>
-                    <p> {{ email }} </p>
-                    <p> {{ email }} </p>
-                    <p> {{ email }} </p>
-                    <p> {{ email }} </p>
-                    <p> {{ email }} </p>
-                    <p> {{ email }} </p>
-                    <p> {{ email }} </p>
-                    <p> {{ email }} </p>
+                    <p v-for="(email, index) in emails" :key="index"> {{ email }} </p>
                 </div>
             </section>
         </main>
